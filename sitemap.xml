@@ -1,48 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://myhouseisburping.com/</loc>
-        <lastmod>2026-01-22</lastmod>
-        <priority>1.00</priority>
-    </url>
-    <url>
-        <loc>https://myhouseisburping.com/pages/what-is-house-burping.html</loc>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://myhouseisburping.com/pages/is-house-burping-normal.html</loc>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://myhouseisburping.com/pages/house-burping-causes.html</loc>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://myhouseisburping.com/pages/house-burping-at-night.html</loc>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://myhouseisburping.com/pages/house-burping-hvac.html</loc>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://myhouseisburping.com/pages/house-burping-new-vs-old-house.html</loc>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://myhouseisburping.com/pages/house-burping-and-mold.html</loc>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://myhouseisburping.com/pages/structural-or-normal.html</loc>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://myhouseisburping.com/pages/how-to-stop-house-burping.html</loc>
-        <priority>0.80</priority>
-    </url>
-    <url>
-        <loc>https://myhouseisburping.com/pages/when-to-call-a-professional.html</loc>
-        <priority>0.80</priority>
-    </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://www.myhouseisburping.com/</loc>
+  <lastmod>2026-01-23T03:44:41+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.myhouseisburping.com/pages/house-burping-causes.html</loc>
+  <lastmod>2026-01-23T03:45:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.myhouseisburping.com/pages/how-to-stop-house-burping.html</loc>
+  <lastmod>2026-01-23T03:45:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.myhouseisburping.com/pages/is-house-burping-normal.html</loc>
+  <lastmod>2026-01-23T03:45:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.myhouseisburping.com/pages/what-is-house-burping.html</loc>
+  <lastmod>2026-01-23T03:45:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.myhouseisburping.com/pages/house-burping-at-night.html</loc>
+  <lastmod>2026-01-23T03:45:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.myhouseisburping.com/pages/house-burping-hvac.html</loc>
+  <lastmod>2026-01-23T03:45:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.myhouseisburping.com/pages/house-burping-new-vs-old-house.html</loc>
+  <lastmod>2026-01-23T03:45:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.myhouseisburping.com/pages/house-burping-and-mold.html</loc>
+  <lastmod>2026-01-23T03:45:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.myhouseisburping.com/pages/structural-or-normal.html</loc>
+  <lastmod>2026-01-23T03:45:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.myhouseisburping.com/pages/when-to-call-a-professional.html</loc>
+  <lastmod>2026-01-23T03:45:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 </urlset>
