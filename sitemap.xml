@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
+  <loc>https://www.myhouseisburping.com/pages/house-burping-cold-weather.html</loc>
+  <lastmod>2026-01-25T20:27:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.myhouseisburping.com/pages/roof-truss-uplift-noises.html</loc>
+  <lastmod>2026-01-25T20:27:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.myhouseisburping.com/pages/water-heater-popping-noise.html</loc>
+  <lastmod>2026-01-25T20:27:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.myhouseisburping.com/pages/wind-noises-in-house.html</loc>
+  <lastmod>2026-01-25T20:27:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.myhouseisburping.com/pages/house-burping-allergies-ventilation.html</loc>
+  <lastmod>2026-01-25T20:27:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.myhouseisburping.com/pages/pest-noises-vs-house-settling.html</loc>
+  <lastmod>2026-01-25T20:27:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+  <url>
   <loc>https://www.myhouseisburping.com/</loc>
   <lastmod>2026-01-23T03:44:41+00:00</lastmod>
   <priority>1.00</priority>
@@ -56,3 +86,4 @@
   <priority>0.80</priority>
 </url>
 </urlset>
+
