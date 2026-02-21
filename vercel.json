@@ -1,4 +1,10 @@
 {
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/myhouseisburping/$1"
+    }
+  ],
   "redirects": [
     {
       "source": "/index.html",
