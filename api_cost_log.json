@@ -1,0 +1,227 @@
+{
+  "total_spent": 0.3399,
+  "articles_generated": [
+    {
+      "slug": "water-heater-popping-sounds-fix",
+      "title": "Water Heater Popping Noise: Causes, Fixes & When to Replace",
+      "keyword": "why does my water heater make a popping noise",
+      "file": "pages\\water-heater-popping-sounds-fix.html",
+      "cost": 0.01702,
+      "input_tokens": 789,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:08:41.296754"
+    },
+    {
+      "slug": "house-shaking-in-wind",
+      "title": "Is It Normal for My House to Shake in High Winds?",
+      "keyword": "is it normal for house to shake in wind",
+      "file": "pages\\house-shaking-in-wind.html",
+      "cost": 0.01698,
+      "input_tokens": 741,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:09:16.458245"
+    },
+    {
+      "slug": "why-do-old-houses-creak",
+      "title": "Why Do Old Houses Creak So Much? (And Is It a Problem?)",
+      "keyword": "why do old houses creak",
+      "file": "pages\\why-do-old-houses-creak.html",
+      "cost": 0.01699,
+      "input_tokens": 759,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:09:51.124401"
+    },
+    {
+      "slug": "house-creaking-at-night-causes",
+      "title": "Why Does My House Creak at Night? 6 Causes Explained",
+      "keyword": "why does my house creak at night",
+      "file": "pages\\house-creaking-at-night-causes.html",
+      "cost": 0.01699,
+      "input_tokens": 761,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:10:25.432624"
+    },
+    {
+      "slug": "vinyl-siding-noise-when-windy",
+      "title": "Vinyl Siding Noise When Windy: Why It Happens & How to Stop It",
+      "keyword": "vinyl siding noise when windy",
+      "file": "pages\\vinyl-siding-noise-when-windy.html",
+      "cost": 0.01701,
+      "input_tokens": 780,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:11:00.022220"
+    },
+    {
+      "slug": "house-popping-sound-cold-weather",
+      "title": "House Making Loud Popping Sounds in Cold Weather? Here's Why",
+      "keyword": "house loud popping noises causes",
+      "file": "pages\\house-popping-sound-cold-weather.html",
+      "cost": 0.01699,
+      "input_tokens": 755,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:11:31.497977"
+    },
+    {
+      "slug": "creaking-windows-when-windy",
+      "title": "Why Do My Windows Creak and Whistle in the Wind?",
+      "keyword": "creaking windows when windy",
+      "file": "pages\\creaking-windows-when-windy.html",
+      "cost": 0.01699,
+      "input_tokens": 763,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:12:03.032372"
+    },
+    {
+      "slug": "how-to-burp-your-house-ventilation",
+      "title": "How to Burp Your House: The 10-Minute Ventilation Technique",
+      "keyword": "how to burp your house",
+      "file": "pages\\how-to-burp-your-house-ventilation.html",
+      "cost": 0.017,
+      "input_tokens": 775,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:12:33.027367"
+    },
+    {
+      "slug": "water-heater-rumbling-noise",
+      "title": "Water Heater Rumbling Noise: Sediment Buildup Explained",
+      "keyword": "water heater gurgles and pops",
+      "file": "pages\\water-heater-rumbling-noise.html",
+      "cost": 0.017,
+      "input_tokens": 771,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:13:06.501232"
+    },
+    {
+      "slug": "foundation-settling-noises",
+      "title": "Foundation Settling Noises: Normal vs. Dangerous Signs",
+      "keyword": "house settling noises dangerous",
+      "file": "pages\\foundation-settling-noises.html",
+      "cost": 0.01697,
+      "input_tokens": 736,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:13:41.528253"
+    },
+    {
+      "slug": "radon-gas-in-house-signs",
+      "title": "Radon Gas in Your House: Signs, Risks & How to Test",
+      "keyword": "signs of radon in house",
+      "file": "pages\\radon-gas-in-house-signs.html",
+      "cost": 0.017,
+      "input_tokens": 765,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:23:53.001256"
+    },
+    {
+      "slug": "how-to-reduce-radon-in-house",
+      "title": "How to Reduce Radon Levels in Your Home (DIY & Pro Options)",
+      "keyword": "how to reduce radon in house",
+      "file": "pages\\how-to-reduce-radon-in-house.html",
+      "cost": 0.01701,
+      "input_tokens": 778,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:24:23.694564"
+    },
+    {
+      "slug": "radon-mitigation-fan-guide",
+      "title": "Radon Mitigation Fans: How They Work, Costs & Best Options",
+      "keyword": "radon mitigation fan",
+      "file": "pages\\radon-mitigation-fan-guide.html",
+      "cost": 0.017,
+      "input_tokens": 769,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:24:55.969060"
+    },
+    {
+      "slug": "best-radon-test-kits",
+      "title": "Best Radon Test Kits for Home Use (Short & Long Term)",
+      "keyword": "best radon test kit",
+      "file": "pages\\best-radon-test-kits.html",
+      "cost": 0.017,
+      "input_tokens": 772,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:25:27.480863"
+    },
+    {
+      "slug": "radon-levels-by-state",
+      "title": "Radon Levels by State: Is Your Home at Risk?",
+      "keyword": "radon levels by state",
+      "file": "pages\\radon-levels-by-state.html",
+      "cost": 0.01699,
+      "input_tokens": 757,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:25:59.469177"
+    },
+    {
+      "slug": "floor-joist-creaking-fix",
+      "title": "Floor Joist Creaking: Why It Happens & How to Fix It",
+      "keyword": "floor joist creaking",
+      "file": "pages\\floor-joist-creaking-fix.html",
+      "cost": 0.01699,
+      "input_tokens": 757,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:26:33.235923"
+    },
+    {
+      "slug": "pipes-knocking-in-walls",
+      "title": "Pipes Knocking in Walls: Water Hammer Explained & Fixed",
+      "keyword": "pipes knocking in walls",
+      "file": "pages\\pipes-knocking-in-walls.html",
+      "cost": 0.01699,
+      "input_tokens": 763,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:27:07.774516"
+    },
+    {
+      "slug": "attic-noises-at-night",
+      "title": "Attic Noises at Night: What's Up There? (Diagnosis Guide)",
+      "keyword": "attic noises at night",
+      "file": "pages\\attic-noises-at-night.html",
+      "cost": 0.017,
+      "input_tokens": 771,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:27:41.618309"
+    },
+    {
+      "slug": "carbon-monoxide-vs-radon-home",
+      "title": "Carbon Monoxide vs Radon: What Every Homeowner Must Know",
+      "keyword": "carbon monoxide vs radon home",
+      "file": "pages\\carbon-monoxide-vs-radon-home.html",
+      "cost": 0.017,
+      "input_tokens": 767,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:28:13.265906"
+    },
+    {
+      "slug": "indoor-air-quality-improvement",
+      "title": "How to Improve Indoor Air Quality: The Complete Homeowner Guide",
+      "keyword": "how to improve indoor air quality",
+      "file": "pages\\indoor-air-quality-improvement.html",
+      "cost": 0.01699,
+      "input_tokens": 755,
+      "output_tokens": 4096,
+      "generated_at": "2026-02-20T17:28:45.140702"
+    }
+  ],
+  "sessions": [
+    {
+      "date": "2026-02-20T17:13:42.531407",
+      "articles": 10,
+      "cost": 0.16994
+    },
+    {
+      "date": "2026-02-20T17:20:00.179786",
+      "articles": 0,
+      "cost": 0.0
+    },
+    {
+      "date": "2026-02-20T17:20:13.808765",
+      "articles": 0,
+      "cost": 0.0
+    },
+    {
+      "date": "2026-02-20T17:28:46.142300",
+      "articles": 10,
+      "cost": 0.16996
+    }
+  ]
+}

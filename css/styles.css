@@ -1,238 +1,178 @@
 /* =========================================
-   1. Variables & Reset
+   1. Imports & Reset
    ========================================= */
-:root {
-    /* Design System: Home Inspector meets WebMD */
-    --color-primary: #2c3e50;  /* Slate Blue */
-    --color-secondary: #34495e;
-    --color-accent: #e67e22;   /* Safety Orange */
-    --color-text: #333333;
-    --color-bg-light: #f4f6f7;
-    --color-border: #ddd;
-    
-    --spacing-sm: 0.5rem;
-    --spacing-md: 1rem;
-    --spacing-lg: 2rem;
-    
-    --font-main: 'Open Sans', Helvetica, Arial, sans-serif;
-    --font-heading: 'Montserrat', sans-serif;
-}
+/* Importing Google Fonts: Montserrat (Headings) and Merriweather (Body) */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Montserrat:wght@500;600;700&display=swap');
 
-* {
+*, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: var(--font-main);
-    color: var(--color-text);
-    line-height: 1.6;
-    background-color: #fff;
+/* =========================================
+   2. Variables (:root)
+   ========================================= */
+:root {
+    /* Colors */
+    --color-primary: #2c3e50;  /* Slate Blue */
+    --color-accent: #e67e22;   /* Safety Orange */
+    --color-bg: #fdfdfd;       /* Off-white */
+    --color-text-main: #333333;
+    --color-text-light: #ecf0f1;
+    --color-gray-light: #e0e0e0;
+    
+    /* Typography */
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body: 'Merriweather', serif;
+    
+    /* Spacing & Layout */
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --container-width: 1200px;
+    --header-height: 70px;
 }
 
 /* =========================================
-   2. Typography
+   3. Global Styles (Mobile First)
    ========================================= */
-h1, h2, h3, h4 {
-    font-family: var(--font-heading);
-    color: var(--color-primary);
-    margin-bottom: var(--spacing-md);
-    line-height: 1.2;
+html {
+    scroll-behavior: smooth;
 }
 
-h1.page-title {
-    font-size: 2.2rem;
-    border-bottom: 2px solid var(--color-border);
-    padding-bottom: var(--spacing-md);
+body {
+    font-family: var(--font-body);
+    background-color: var(--color-bg);
+    color: var(--color-text-main);
+    line-height: 1.6;
+    font-size: 16px; /* Base size */
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    line-height: 1.2;
+    margin-bottom: var(--spacing-md);
+    font-weight: 700;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.5rem; }
 
 p {
     margin-bottom: var(--spacing-md);
 }
 
 a {
-    color: var(--color-primary);
     text-decoration: none;
-    font-weight: 600;
+    color: var(--color-primary);
+    transition: color 0.2s ease;
 }
 
 a:hover {
     color: var(--color-accent);
-    text-decoration: underline;
 }
 
-/* =========================================
-   3. Utility Classes (Used in HTML)
-   ========================================= */
-.text-slate-blue { color: var(--color-primary); }
-.text-orange { color: var(--color-accent); }
-.bg-slate-blue { background-color: var(--color-primary); color: #fff; }
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 var(--spacing-md);
-}
-
-.content-container {
-    padding: var(--spacing-lg) 0;
-    max-width: 800px; /* Readability width */
-    margin: 0 auto;
-    width: 90%;
-}
-
-/* =========================================
-   4. Component Styles (Callouts & Cards)
-   ========================================= */
-/* Callout Boxes */
-.callout-box {
-    background-color: var(--color-bg-light);
-    padding: var(--spacing-md);
-    border-radius: 4px;
-    margin: var(--spacing-lg) 0;
-}
-
-.warning-border { border-left: 5px solid var(--color-accent); }
-.info-border { border-left: 5px solid var(--color-primary); }
-
-/* Content Cards */
-.card {
-    background: #fff;
-    border: 1px solid var(--color-border);
-    border-radius: 4px;
-    padding: var(--spacing-md);
-    margin-bottom: var(--spacing-md);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
-/* Images */
 img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: var(--spacing-md) 0;
+}
+
+/* =========================================
+   4. Utility Classes
+   ========================================= */
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 24px; /* Ensure >44px height for tap targets */
     border-radius: 4px;
-}
-
-/* =========================================
-   5. Desktop Media Query
-   ========================================= */
-@media (min-width: 768px) {
-    
-    h1.page-title { font-size: 2.5rem; }
-    
-    .site-header .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .site-header nav ul {
-        display: flex;
-        gap: var(--spacing-lg);
-    }
-    
-    .nav-toggle { display: none; } /* Hide hamburger on desktop */
-
-    .content-container {
-        padding: 4rem 0;
-    }
-
-} /* <--- FIXED: Closing brace moved here (End of Desktop Logic) */
-
-
-/* =========================================
-   6. Navigation Styles (Moved from Index)
-   ========================================= */
-.site-header {
-    background-color: #fff;
-    border-bottom: 3px solid var(--color-primary);
-    padding: var(--spacing-md) 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.logo {
     font-family: var(--font-heading);
-    font-weight: 700;
-    font-size: 1.5rem;
-    color: var(--color-primary);
-}
-
-.accent-orange {
-    color: var(--color-accent);
-}
-
-/* Nav Lists (Global / Mobile Default) */
-.site-header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: var(--spacing-md) 0 0 0;
-}
-
-.site-header nav li {
-    margin-bottom: var(--spacing-sm);
-}
-
-.site-header nav a {
-    color: var(--color-secondary);
     font-weight: 600;
-    font-size: 1.1rem;
-    transition: color 0.3s ease;
-}
-
-.site-header nav a:hover {
-    color: var(--color-accent);
-    text-decoration: none;
-}
-
-/* Mobile Toggle Button */
-.nav-toggle {
-    display: block; /* Visible on mobile */
-    background: none;
-    border: 2px solid var(--color-primary);
-    color: var(--color-primary);
-    font-size: 1.5rem;
+    text-align: center;
     cursor: pointer;
-    padding: 5px 10px;
-    border-radius: 4px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    border: none;
+    font-size: 1rem;
 }
 
-/* =========================================
-   7. Footer Styles
-   ========================================= */
-.site-footer {
+.btn-primary {
     background-color: var(--color-primary);
     color: #fff;
-    padding: var(--spacing-lg) 0;
-    text-align: center;
-    margin-top: var(--spacing-lg);
 }
 
-.site-footer p {
-    margin-bottom: var(--spacing-sm);
+.btn-primary:hover {
+    background-color: #34495e;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: var(--color-accent);
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #d35400;
+    color: #fff;
+}
+
+/* Card Component (Blog Posts/Features) */
+.card {
+    background: #fff;
+    border: 1px solid var(--color-gray-light);
+    border-radius: 8px;
+    padding: var(--spacing-md);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Ad Slot (Layout Shift Protection) */
+.ad-slot {
+    background-color: #f0f0f0;
+    border: 1px dashed #ccc;
+    width: 100%;
+    min-height: 250px; /* Pre-allocate space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: var(--spacing-lg) 0;
+    color: #888;
+    font-family: var(--font-heading);
     font-size: 0.9rem;
 }
 
-.site-footer a {
-    color: #fff;
-    opacity: 0.8;
-    margin: 0 10px;
-}
+/* =========================================
+   5. Media Queries (Responsive)
+   ========================================= */
 
-.site-footer a:hover {
-    color: var(--color-accent);
-    opacity: 1;
-}
+/* Tablet & Desktop */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px; /* Improve readability on larger screens */
+    }
 
-/* Ad Slots */
-.ad-slot {
-    background-color: #eee;
-    border: 1px dashed #aaa;
-    padding: 2rem;
-    text-align: center;
-    color: #777;
-    margin: 2rem 0;
-    font-weight: bold;
+    h1 { font-size: 2.5rem; }
+    h2 { font-size: 2rem; }
+
+    .container {
+        padding: 0 var(--spacing-lg);
+    }
 }

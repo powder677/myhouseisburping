@@ -1,0 +1,108 @@
+{
+  "total_spent": 0.24013,
+  "rewrites": [
+    {
+      "file": "pages/house-burping-causes.html",
+      "cost": 0.01575,
+      "tokens_in": 1762,
+      "tokens_out": 3584,
+      "date": "2026-02-20T20:37:44.938997"
+    },
+    {
+      "file": "pages/is-house-burping-normal.html",
+      "cost": 0.01807,
+      "tokens_in": 2596,
+      "tokens_out": 3999,
+      "date": "2026-02-20T20:38:16.487819"
+    },
+    {
+      "file": "pages/house-burping-hvac.html",
+      "cost": 0.01436,
+      "tokens_in": 1666,
+      "tokens_out": 3258,
+      "date": "2026-02-20T20:38:38.730480"
+    },
+    {
+      "file": "pages/water-heater-popping-noise.html",
+      "cost": 0.01678,
+      "tokens_in": 1782,
+      "tokens_out": 3838,
+      "date": "2026-02-20T20:39:05.611939"
+    },
+    {
+      "file": "pages/wind-noises-in-house.html",
+      "cost": 0.01928,
+      "tokens_in": 1819,
+      "tokens_out": 4456,
+      "date": "2026-02-20T20:39:37.956338"
+    },
+    {
+      "file": "pages/house-burping-at-night.html",
+      "cost": 0.01373,
+      "tokens_in": 1668,
+      "tokens_out": 3098,
+      "date": "2026-02-20T20:40:00.481309"
+    },
+    {
+      "file": "pages/house-burping-cold-weather.html",
+      "cost": 0.01906,
+      "tokens_in": 1855,
+      "tokens_out": 4395,
+      "date": "2026-02-20T20:40:31.772895"
+    },
+    {
+      "file": "pages/structural-or-normal.html",
+      "cost": 0.01585,
+      "tokens_in": 1670,
+      "tokens_out": 3629,
+      "date": "2026-02-20T20:40:56.739946"
+    },
+    {
+      "file": "pages/how-to-stop-house-burping.html",
+      "cost": 0.02368,
+      "tokens_in": 2821,
+      "tokens_out": 5357,
+      "date": "2026-02-20T20:41:35.343107"
+    },
+    {
+      "file": "pages/when-to-call-a-professional.html",
+      "cost": 0.02317,
+      "tokens_in": 2827,
+      "tokens_out": 5227,
+      "date": "2026-02-20T20:42:14.476786"
+    },
+    {
+      "file": "pages/house-burping-allergies-ventilation.html",
+      "cost": 0.02191,
+      "tokens_in": 2739,
+      "tokens_out": 4929,
+      "date": "2026-02-20T20:42:50.867947"
+    },
+    {
+      "file": "pages/house-burping-and-mold.html",
+      "cost": 0.02157,
+      "tokens_in": 2779,
+      "tokens_out": 4837,
+      "date": "2026-02-20T20:43:30.944740"
+    },
+    {
+      "file": "pages/roof-truss-uplift-noises.html",
+      "cost": 0.01692,
+      "tokens_in": 1785,
+      "tokens_out": 3872,
+      "date": "2026-02-20T20:43:57.366437"
+    }
+  ],
+  "sessions": [
+    {
+      "date": "2026-02-20T20:30:19.294652",
+      "pages": 0,
+      "cost": 0.0
+    },
+    {
+      "date": "2026-02-20T20:43:57.867057",
+      "pages": 13,
+      "cost": 0.24013
+    }
+  ]
+}

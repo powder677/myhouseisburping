@@ -1,224 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-   <title>House Burping Explained: Why Your House Pops, Cracks, and Groans</title>
-   <meta name="description" content="Why is your house making noise? The complete guide to 'house burping,' thermal expansion, water heater popping, and structural settling sounds.">
-   <link rel="canonical" href="https://www.myhouseisburping.com/">
-   
-   <meta property="og:title" content="House Burping Explained: Causes and Solutions">
-   <meta property="og:description" content="Why is your house making noise? The complete guide to 'house burping,' thermal expansion, and structural sounds.">
-   <meta property="og:url" content="https://www.myhouseisburping.com/">
-   <meta property="og:type" content="website">
-   
+   <meta name="description" content="An authoritative overview of 'house burping,' including what it is, why it happens, and whether it’s normal. Causes, sounds, and solutions.">
+   <title>House Burping Explained: Causes, Sounds, and Solutions</title>
+
    <link rel="stylesheet" href="css/styles.css">
-   
+
    <script type="application/ld+json">
-   {
-     "@context": "https://schema.org",
-     "@graph": [
-       {
-         "@type": "WebSite",
-         "@id": "https://www.myhouseisburping.com/#website",
-         "url": "https://www.myhouseisburping.com/",
-         "name": "MyHouseIsBurping.com",
-         "description": "The authority on house noises, thermal expansion, and home maintenance.",
-         "publisher": {
-           "@type": "Organization",
-           "name": "MyHouseIsBurping.com",
-           "logo": {
-             "@type": "ImageObject",
-             "url": "https://www.myhouseisburping.com/assets/logo.png"
-           }
-         }
-       },
-       {
+      {
+         "@context": "https://schema.org",
          "@type": "FAQPage",
-         "mainEntity": [
-           {
-             "@type": "Question",
-             "name": "What is house burping?",
-             "acceptedAnswer": {
+         "mainEntity": [{
+            "@type": "Question",
+            "name": "What is house burping?",
+            "acceptedAnswer": {
                "@type": "Answer",
-               "text": "House burping is a colloquial term for the loud popping, cracking, or banging noises a house makes. These are primarily caused by thermal expansion of building materials, sediment in water heaters, or air pressure changes."
-             }
-           },
-           {
-             "@type": "Question",
-             "name": "Is house burping dangerous?",
-             "acceptedAnswer": {
+               "text": "House burping is a colloquial term for the sounds a house makes due to air pressure changes, thermal expansion/contraction of materials, or plumbing issues."
+            }
+         }, {
+            "@type": "Question",
+            "name": "Is house burping dangerous?",
+            "acceptedAnswer": {
                "@type": "Answer",
-               "text": "In most cases, no. It is usually a normal sign of the house reacting to temperature changes. However, if loud bangs are accompanied by visible wall cracks, gas smells, or sticking doors, it requires professional attention."
-             }
-           }
-         ]
-       }
-     ]
-   }
+               "text": "In most cases, no. It is usually a normal sign of the house 'breathing' or settling. However, loud bangs accompanied by structural cracks or gas smells require immediate professional attention."
+            }
+         }, {
+            "@type": "Question",
+            "name": "Can I stop my house from burping?",
+            "acceptedAnswer": {
+               "@type": "Answer",
+               "text": "You can reduce the noise by insulating pipes, balancing your HVAC pressure, or fixing loose ductwork, but completely eliminating all house sounds is often impossible."
+            }
+         }]
+      }
    </script>
-   
-   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3688809656284836" crossorigin="anonymous"></script>
+
+   <style>
+      /* Navigation Layout */
+      header {
+         background-color: #fff;
+         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+         position: sticky;
+         top: 0;
+         z-index: 1000;
+      }
+
+      .nav-container {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         height: var(--header-height);
+      }
+
+      .logo {
+         font-family: var(--font-heading);
+         font-weight: 700;
+         font-size: 1.5rem;
+         color: var(--color-primary);
+      }
+
+      .nav-toggle {
+         display: none;
+         background: none;
+         border: none;
+         font-size: 1.5rem;
+         cursor: pointer;
+         color: var(--color-primary);
+      }
+
+      .nav-menu {
+         display: flex;
+         gap: 20px;
+         list-style: none;
+      }
+
+      /* Hero Section */
+      .hero {
+         background-color: var(--color-primary);
+         color: #fff;
+         padding: 4rem 1rem;
+         text-align: center;
+      }
+
+      .hero h1 {
+         color: #fff;
+      }
+
+      .hero p {
+         font-size: 1.2rem;
+         max-width: 600px;
+         margin: 0 auto 2rem auto;
+         color: var(--color-gray-light);
+      }
+
+      /* Diagnostic Grid */
+      .grid-container {
+         display: grid;
+         grid-template-columns: 1fr;
+         gap: 1.5rem;
+         margin-bottom: 3rem;
+      }
+
+      .card h3 {
+         font-size: 1.2rem;
+         margin-bottom: 0.5rem;
+      }
+
+      .card a {
+         text-decoration: none;
+         color: inherit;
+         height: 100%;
+         display: flex;
+         flex-direction: column;
+      }
+
+      .card-link-text {
+         margin-top: auto;
+         color: var(--color-accent);
+         font-weight: 600;
+         font-size: 0.9rem;
+      }
+
+      /* FAQ Section */
+      .faq-section {
+         background-color: #f4f6f7;
+         padding: 3rem 0;
+         margin-top: 2rem;
+      }
+
+      .faq-item {
+         background: #fff;
+         padding: 1.5rem;
+         border-radius: 8px;
+         margin-bottom: 1rem;
+         border-left: 4px solid var(--color-accent);
+      }
+
+      /* Mobile Responsive Adjustments */
+      @media (max-width: 768px) {
+         .nav-toggle {
+            display: block;
+         }
+
+         .nav-menu {
+            display: none;
+            position: absolute;
+            top: var(--header-height);
+            left: 0;
+            width: 100%;
+            background: #fff;
+            flex-direction: column;
+            padding: 1rem;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+         }
+
+         .nav-menu.active {
+            display: flex;
+         }
+      }
+
+      @media (min-width: 600px) {
+         .grid-container {
+            grid-template-columns: repeat(2, 1fr);
+         }
+      }
+
+      @media (min-width: 992px) {
+         .grid-container {
+            grid-template-columns: repeat(3, 1fr);
+         }
+      }
+   </style>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3688809656284836" crossorigin="anonymous"></script>
 </head>
 
 <body>
-   <header class="site-header">
+
+   <header>
       <div class="container nav-container">
-         <a href="/" class="logo" aria-label="MyHouseIsBurping Home">
-            MyHouseIsBurping<span class="accent-orange">.com</span>
-         </a>
-         <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-            <span class="sr-only">Menu</span>☰
-         </button>
-         <nav aria-label="Main navigation">
-            <ul class="nav-menu">
-               <li><a href="/">Home</a></li>
-               <li><a href="pages/house-burping-causes.html">Causes</a></li>
-               <li><a href="pages/is-house-burping-normal.html">Is It Normal?</a></li>
-               <li><a href="pages/how-to-stop-house-burping.html">Solutions</a></li>
-               <li><a href="pages/when-to-call-a-professional.html">Get Help</a></li>
-            </ul>
-         </nav>
+         <a href="index.html" class="logo">MyHouseIsBurping</a>
+         <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+         <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/house-burping-causes.html">Causes</a></li>
+            <li><a href="pages/how-to-stop-house-burping.html">Solutions</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul>
       </div>
    </header>
 
-   <section class="hero" style="background: #2c3e50; color: white; padding: 4rem 1rem; text-align: center;">
+   <main>
+      <section class="hero" id="hero">
+         <div class="container">
+            <h1>Is Your House Burping?</h1>
+            <p>Don't Panic. Here is the complete guide to the pops, creaks, and groans your home makes.</p>
+            <a href="pages/is-house-burping-normal.html" class="btn btn-secondary">Is It Normal?</a>
+         </div>
+      </section>
+
+      <section class="container" style="padding-top: 3rem; padding-bottom: 1rem;">
+         <h2>What is "House Burping"?</h2>
+         <p>
+            You’re sitting quietly in your living room when suddenly—<strong>POP</strong>. Or perhaps a low groan echoing from the attic.
+            "House burping" is the non-technical term for the sudden release of air or the movement of materials within your home's structure.
+         </p>
+         <p>
+            Just like a human burp is the release of gas, a house burp is often the release of pressure or tension.
+            While it can be startling, it is rarely a sign of imminent collapse. However, knowing the source of the sound is crucial for your peace of mind and your home's maintenance.
+         </p>
+
+         <figure style="margin: 2rem 0; text-align: center;">
+            <img src="src/assets/images/house-winter.webp" alt="A modern house in winter under a starry sky, illustrating thermal contraction" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 100%; max-width: 800px; height: auto;">
+            <figcaption style="font-size: 0.9rem; color: #666; margin-top: 0.5rem; font-style: italic;">
+               As the temperature drops at night, materials contract, causing the loud "popping" sounds known as thermal contraction.
+            </figcaption>
+         </figure>
+
+      </section>
+
       <div class="container">
-         <h1 style="font-size: 2.5rem; margin-bottom: 1rem;">Is Your House Burping?</h1>
-         <p style="font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.9;">Don't Panic. Here is the complete guide to the pops, creaks, and groans your home makes.</p>
-         <a href="pages/is-house-burping-normal.html" class="btn" style="background: #e67e22; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold;">Is It Normal?</a>
-      </div>
-   </section>
-
-   <main class="container" style="padding-top: 2rem; padding-bottom: 2rem;">
-      
-      <div class="direct-answer" style="background: #f4f6f7; padding: 1.5rem; border-left: 4px solid #e67e22; margin: 1.5rem 0;">
-         <p><strong>"House Burping" is a term describing the sudden release of built-up pressure in a home.</strong> This pressure release manifests as loud pops, bangs, or cracks. The most common causes are <strong>thermal expansion</strong> (materials shrinking/growing with temperature), <strong>water heater sediment</strong> (kettling), or <strong>HVAC ductwork</strong> flexing when the heat turns on.</p>
+         <div class="ad-slot">
+            <span>Advertisement Space</span>
+         </div>
       </div>
 
-      <p class="intro-text" style="text-align: center; max-width: 800px; margin: 0 auto 3rem auto;">
-         Just like a human burp is the release of gas, a house burp is the release of tension. While it can be startling, it is rarely a sign of imminent collapse. However, knowing the source of the sound is crucial for your peace of mind.
-      </p>
-
-      <section id="diagnostic-grid">
+      <section class="container" id="diagnostic-grid">
          <h2 style="text-align: center; margin-bottom: 2rem;">Explore the Sounds</h2>
-         <div class="grid-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
+         <div class="grid-container">
 
-            <article class="card" style="border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px; transition: transform 0.2s;">
-               <a href="pages/what-is-house-burping.html" style="text-decoration: none; color: inherit;">
-                  <h3 style="color: #2c3e50; margin-top: 0;">What is House Burping?</h3>
-                  <p>A deep dive into the physics of air pressure and noise vs. ventilation.</p>
-                  <span style="color: #e67e22; font-weight: bold;">Read Definition →</span>
+            <article class="card">
+               <a href="pages/what-is-house-burping.html">
+                  <h3>What is House Burping?</h3>
+                  <p>A deep dive into the physics of air pressure and home acoustics.</p>
+                  <span class="card-link-text">Read Definition →</span>
                </a>
             </article>
 
-            <article class="card" style="border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px;">
-               <a href="pages/house-burping-causes.html" style="text-decoration: none; color: inherit;">
-                  <h3 style="color: #2c3e50; margin-top: 0;">Top Causes</h3>
+            <article class="card">
+               <a href="pages/is-house-burping-normal.html">
+                  <h3>Is It Normal?</h3>
+                  <p>Distinguishing between benign settling noises and red flags.</p>
+                  <span class="card-link-text">Check Symptoms →</span>
+               </a>
+            </article>
+
+            <article class="card">
+               <a href="pages/house-burping-causes.html">
+                  <h3>Top Causes</h3>
                   <p>From thermal expansion to loose ducts, see the most common culprits.</p>
-                  <span style="color: #e67e22; font-weight: bold;">View Causes →</span>
+                  <span class="card-link-text">View Causes →</span>
                </a>
             </article>
 
-            <article class="card" style="border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px;">
-               <a href="pages/is-house-burping-normal.html" style="text-decoration: none; color: inherit;">
-                  <h3 style="color: #2c3e50; margin-top: 0;">Is It Normal?</h3>
-                  <p>Distinguish between benign settling noises and structural red flags.</p>
-                  <span style="color: #e67e22; font-weight: bold;">Check Symptoms →</span>
-               </a>
-            </article>
-
-            <article class="card" style="border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px;">
-               <a href="pages/house-burping-at-night.html" style="text-decoration: none; color: inherit;">
-                  <h3 style="color: #2c3e50; margin-top: 0;">Noises at Night</h3>
+            <article class="card">
+               <a href="pages/house-burping-at-night.html">
+                  <h3>Noises at Night</h3>
                   <p>Why does your house seem so much louder when the sun goes down?</p>
-                  <span style="color: #e67e22; font-weight: bold;">Sleep Better →</span>
+                  <span class="card-link-text">Sleep Better →</span>
                </a>
             </article>
 
-            <article class="card" style="border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px;">
-               <a href="pages/water-heater-popping.html" style="text-decoration: none; color: inherit;">
-                  <h3 style="color: #2c3e50; margin-top: 0;">Water Heater Popping</h3>
-                  <p>Is your tank about to burst? Learn about sediment and "kettling."</p>
-                  <span style="color: #e67e22; font-weight: bold;">Inspect Tank →</span>
+            <article class="card">
+               <a href="pages/house-burping-hvac.html">
+                  <h3>HVAC & Plumbing</h3>
+                  <p>How your heating, cooling, and water systems contribute to the noise.</p>
+                  <span class="card-link-text">Inspect Systems →</span>
                </a>
             </article>
 
-            <article class="card" style="border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px;">
-               <a href="pages/wind-noises-in-house.html" style="text-decoration: none; color: inherit;">
-                  <h3 style="color: #2c3e50; margin-top: 0;">Wind Noises</h3>
-                  <p>Why high winds make your house moan and how to stop the whistling.</p>
-                  <span style="color: #e67e22; font-weight: bold;">Stop Wind Noise →</span>
+            <article class="card">
+               <a href="pages/house-burping-new-vs-old-house.html">
+                  <h3>New vs. Old Homes</h3>
+                  <p>Why new builds pop and old homes creak: The age factor.</p>
+                  <span class="card-link-text">Compare Homes →</span>
                </a>
             </article>
 
-            <article class="card" style="border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px;">
-               <a href="pages/structural-damage-vs-settling.html" style="text-decoration: none; color: inherit;">
-                  <h3 style="color: #2c3e50; margin-top: 0;">Structural Safety</h3>
-                  <p>A safety checklist: cracks, sticking doors, and foundation shifts.</p>
-                  <span style="color: #e67e22; font-weight: bold;">Perform Check →</span>
+            <article class="card">
+               <a href="pages/house-burping-and-mold.html">
+                  <h3>Mold Risks</h3>
+                  <p>Can that burping sound actually indicate hidden moisture issues?</p>
+                  <span class="card-link-text">Check for Mold →</span>
                </a>
             </article>
 
-            <article class="card" style="border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px;">
-               <a href="pages/house-burping-or-mice.html" style="text-decoration: none; color: inherit;">
-                  <h3 style="color: #2c3e50; margin-top: 0;">Pests vs. House</h3>
-                  <p>Is it the house settling or a mouse in the wall? Hear the difference.</p>
-                  <span style="color: #e67e22; font-weight: bold;">Identify Pests →</span>
+            <article class="card">
+               <a href="pages/structural-or-normal.html">
+                  <h3>Structural Checks</h3>
+                  <p>A DIY checklist to ensure your foundation and framing are secure.</p>
+                  <span class="card-link-text">Perform Check →</span>
                </a>
             </article>
 
-            <article class="card" style="border: 1px solid #ddd; padding: 1.5rem; border-radius: 8px;">
-               <a href="pages/when-to-call-a-professional.html" style="text-decoration: none; color: inherit;">
-                  <h3 style="color: #2c3e50; margin-top: 0;">When to Call a Pro</h3>
+            <article class="card">
+               <a href="pages/how-to-stop-house-burping.html">
+                  <h3>How to Stop It</h3>
+                  <p>Practical tips to dampen the sound and fix the underlying issues.</p>
+                  <span class="card-link-text">Fix It Now →</span>
+               </a>
+            </article>
+
+            <article class="card">
+               <a href="pages/when-to-call-a-professional.html">
+                  <h3>When to Call a Pro</h3>
                   <p>Recognizing the danger zone: When DIY isn't enough.</p>
-                  <span style="color: #e67e22; font-weight: bold;">Get Help →</span>
+                  <span class="card-link-text">Get Help →</span>
                </a>
             </article>
 
          </div>
       </section>
 
-      <div class="ad-slot" style="margin: 3rem 0; text-align: center; background: #eee; padding: 1rem;">
-         <span>Advertisement Space</span>
-      </div>
-      
+      <section class="faq-section" id="faq">
+         <div class="container">
+            <h2 style="text-align: center; margin-bottom: 2rem;">Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+               <h3>What is house burping?</h3>
+               <p>House burping is a colloquial term for the sounds a house makes due to air pressure changes, thermal expansion/contraction of materials, or plumbing issues.</p>
+            </div>
+
+            <div class="faq-item">
+               <h3>Is house burping dangerous?</h3>
+               <p>In most cases, no. It is usually a normal sign of the house 'breathing' or settling. However, loud bangs accompanied by structural cracks or gas smells require immediate professional attention.</p>
+            </div>
+
+            <div class="faq-item">
+               <h3>Can I stop my house from burping?</h3>
+               <p>You can reduce the noise by insulating pipes, balancing your HVAC pressure, or fixing loose ductwork, but completely eliminating all house sounds is often impossible.</p>
+            </div>
+
+         </div>
+      </section>
    </main>
 
-   <section class="faq-section" style="background: #f9f9f9; padding: 3rem 0;">
+   <footer style="background: var(--color-primary); color: #fff; padding: 2rem 0; text-align: center; margin-top: auto;">
       <div class="container">
-         <h2 style="text-align: center; margin-bottom: 2rem;">Frequently Asked Questions</h2>
-         
-         <div class="faq-item" style="background: white; padding: 1.5rem; margin-bottom: 1rem; border-radius: 8px; border-left: 4px solid #2c3e50;">
-            <h3 style="margin-top: 0; font-size: 1.1rem;">Why does my house pop at night?</h3>
-            <p style="margin-bottom: 0;">This is thermal contraction. As the outside temperature drops after sunset, your siding, roof trusses, and window frames shrink. This movement creates friction that releases as a loud pop.</p>
-         </div>
-
-         <div class="faq-item" style="background: white; padding: 1.5rem; margin-bottom: 1rem; border-radius: 8px; border-left: 4px solid #2c3e50;">
-            <h3 style="margin-top: 0; font-size: 1.1rem;">Is house burping dangerous?</h3>
-            <p style="margin-bottom: 0;">In 90% of cases, no. However, if you see jagged cracks in walls, smell gas, or have doors that won't close, you should consult a structural engineer immediately.</p>
-         </div>
-
-         <div class="faq-item" style="background: white; padding: 1.5rem; margin-bottom: 1rem; border-radius: 8px; border-left: 4px solid #2c3e50;">
-            <h3 style="margin-top: 0; font-size: 1.1rem;">How do I stop the noise?</h3>
-            <p style="margin-bottom: 0;">You can't stop thermal expansion, but you can dampen it. Adding insulation, securing loose siding, flushing your water heater, and using flexible HVAC ducts can significantly reduce the volume.</p>
-         </div>
-         
-      </div>
-   </section>
-
-   <footer style="background: #2c3e50; color: #fff; padding: 2rem 0; text-align: center;">
-      <div class="container">
-         <p>© 2024 MyHouseIsBurping.com. All rights reserved.</p>
+         <p>© 2023 MyHouseIsBurping.com. All rights reserved.</p>
          <p style="font-size: 0.8rem; opacity: 0.7;">Disclaimer: This website is for informational purposes only. Always consult a certified home inspector for structural concerns.</p>
-         <nav style="margin-top: 1rem;">
-            <a href="pages/when-to-call-a-professional.html" style="color: white; text-decoration: underline;">Professional Help</a> | 
-            <a href="#contact" style="color: white; text-decoration: underline;">Contact</a>
-         </nav>
       </div>
    </footer>
 
    <script src="js/main.js"></script>
 </body>
+
 </html>
