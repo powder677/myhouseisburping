@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
@@ -113,164 +112,74 @@
   </script>
 <script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3688809656284836">
 </script>
-<style id="hardcoded-nav-styles">
-   /* Navigation Layout */
-      header {
-         background-color: #fff;
-         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-         position: sticky;
-         top: 0;
-         z-index: 1000;
-      }
-
-      .nav-container {
-         display: flex;
-         justify-content: space-between;
-         align-items: center;
-         height: var(--header-height);
-      }
-
-      .logo {
-         font-family: var(--font-heading);
-         font-weight: 700;
-         font-size: 1.5rem;
-         color: var(--color-primary);
-      }
-
-      .nav-toggle {
-         display: none;
-         background: none;
-         border: none;
-         font-size: 1.5rem;
-         cursor: pointer;
-         color: var(--color-primary);
-      }
-
-      .nav-menu {
-         display: flex;
-         gap: 20px;
-         list-style: none;
-      }
-
-      /* Hero Section */
-      .hero {
-         background-color: var(--color-primary);
-         color: #fff;
-         padding: 4rem 1rem;
-         text-align: center;
-      }
-
-      .hero h1 {
-         color: #fff;
-      }
-
-      .hero p {
-         font-size: 1.2rem;
-         max-width: 600px;
-         margin: 0 auto 2rem auto;
-         color: var(--color-gray-light);
-      }
-
-      /* Diagnostic Grid */
-      .grid-container {
-         display: grid;
-         grid-template-columns: 1fr;
-         gap: 1.5rem;
-         margin-bottom: 3rem;
-      }
-
-      .card h3 {
-         font-size: 1.2rem;
-         margin-bottom: 0.5rem;
-      }
-
-      .card a {
-         text-decoration: none;
-         color: inherit;
-         height: 100%;
-         display: flex;
-         flex-direction: column;
-      }
-
-      .card-link-text {
-         margin-top: auto;
-         color: var(--color-accent);
-         font-weight: 600;
-         font-size: 0.9rem;
-      }
-
-      /* FAQ Section */
-      .faq-section {
-         background-color: #f4f6f7;
-         padding: 3rem 0;
-         margin-top: 2rem;
-      }
-
-      .faq-item {
-         background: #fff;
-         padding: 1.5rem;
-         border-radius: 8px;
-         margin-bottom: 1rem;
-         border-left: 4px solid var(--color-accent);
-      }
-
-      /* Mobile Responsive Adjustments */
-      @media (max-width: 768px) {
-         .nav-toggle {
-            display: block;
-         }
-
-         .nav-menu {
-            display: none;
-            position: absolute;
-            top: var(--header-height);
-            left: 0;
-            width: 100%;
-            background: #fff;
-            flex-direction: column;
-            padding: 1rem;
-            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
-         }
-
-         .nav-menu.active {
-            display: flex;
-         }
-      }
-
-      @media (min-width: 600px) {
-         .grid-container {
-            grid-template-columns: repeat(2, 1fr);
-         }
-      }
-
-      @media (min-width: 992px) {
-         .grid-container {
-            grid-template-columns: repeat(3, 1fr);
-         }
-      }
-  </style></head>
+<style id="hardcoded-nav-styles">/* Navigation Layout */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--header-height);
+}
+.logo {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--color-primary);
+}
+.nav-menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: var(--color-primary);
+  font-weight: 500;
+}
+.nav-menu a:hover {
+  color: var(--color-accent);
+}
+@media (max-width: 768px) {
+  .nav-toggle { display: block; }
+  .nav-menu {
+    display: none;
+    position: absolute;
+    top: var(--header-height);
+    left: 0;
+    width: 100%;
+    background: #fff;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  .nav-menu.active { display: flex; }
+}</style></head>
 <body>
 <header>
 <div class="container nav-container">
-<a class="logo" href="/">
-     MyHouseIsBurping
-    </a>
+<a class="logo" href="/">MyHouseIsBurping</a>
+<button aria-label="Toggle navigation" class="nav-toggle">☰</button>
 <nav class="nav-menu">
-<a href="/">
-      Home
-     </a>
-<a href="/radon/">
-      Radon Hub
-     </a>
-<a href="/pages/house-burping-causes.html">
-      Causes
-     </a>
-<a href="/pages/how-to-stop-house-burping.html">
-      Solutions
-     </a>
-<a href="/pages/when-to-call-a-professional.html">
-      Contact
-     </a>
+<a href="/">Home</a>
+<a href="/radon/">Radon Hub</a>
+<a href="/pages/house-burping-causes.html">Causes</a>
+<a href="/pages/how-to-stop-house-burping.html">Solutions</a>
+<a href="/pages/when-to-call-a-professional.html">Contact</a>
 </nav>
 </div>
 </header>
